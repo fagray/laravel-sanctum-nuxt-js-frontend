@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
       <b-navbar-brand href="#">
-        Custdress - Mini customer addressbook
+        LaraNuxt Quick Starter Kit
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse" />
@@ -28,11 +28,11 @@
 
 <script>
 export default {
-
+  name: 'NavigationBar',
   methods: {
     logout () {
       this.$axios.post('/auth/logout').then((response) => {
-        console.log(response.data)
+        // console.log(response.data)
         this.$auth.logout()
         this.$router.push('/login')
       })

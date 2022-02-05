@@ -8,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'CustDress - Custdress - Mini customer addressbook',
+    title: 'Laranuxt Starter',
     htmlAttrs: {
       lang: 'en'
     },
@@ -85,7 +85,7 @@ export default {
   },
 
   router: {
-    middleware: ['auth']
+    // middleware: ['auth']
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

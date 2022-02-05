@@ -21,6 +21,7 @@
 
 <script>
 export default {
+  name: 'ViewCustomer',
   data () {
     return {
       customer: {}

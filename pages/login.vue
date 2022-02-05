@@ -4,7 +4,7 @@
       <b-row>
         <b-col md="6" offset-md="3" class="p-3">
           <h2 class="text-secondary">
-            Login to CustDress
+            Login to your application
           </h2>
           <b-form @submit.prevent="login">
             <b-form-group
@@ -27,7 +27,7 @@
               />
             </b-form-group>
 
-            <b-button type="submit" variant="primary">
+            <b-button block variant="outline-primary" type="submit">
               Login
             </b-button>
           </b-form>
@@ -39,6 +39,7 @@
 
 <script>
 export default {
+  name: 'LoginPage',
   auth: false,
   data () {
     return {
